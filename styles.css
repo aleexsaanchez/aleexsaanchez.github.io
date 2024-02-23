@@ -1,0 +1,72 @@
+    .body-class{
+        background-color: #484349;
+        
+    }
+    .header-class{
+        background-color: #243a58;
+        font-family: Helvetica;
+        text-align: center;
+    }
+    .nav-class{
+        background-color: rgb(20, 43, 62);
+    }
+    .nav-link-class{
+        text-decoration: none;
+        color: #F4B942;
+    }
+
+
+    .title-class, .section-title-class{
+        background-color: #69A2B0;
+        padding-right: 10px;
+        padding-left: 5px;
+        width: fit-content;
+    }
+
+
+    .title-class{
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-class{
+        color: lightblue;
+        font-size: large;
+    }
+
+    .image-class{
+        border-style: solid;
+        border-color: #69A2B0;
+        border-width: 3px;
+        width: 500px;
+    }
+
+    .form-class, .button-class{
+        background-color: #F4B942;
+        padding-left: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        width: fit-content;
+    }
+    .button-class{
+        margin-top: 5px;
+        border-radius: 10cm;
+    }
+    .footer-class{
+        background-color: #69A2B0;
+        padding-bottom:10px;
+    }
+    .text-class-footer{
+        color:white;
+        margin-bottom: 0px;
+    }
+
+@media (width <= 400px){
+    .container{
+        padding: 0 20px;
+    }
+    .image-class{
+        width: 200px;
+    }
+}
+
