@@ -61,12 +61,40 @@
         margin-bottom: 0px;
     }
 
-@media (width <= 400px){
+
+@media(max-width:700px){
+    .container{
+        padding: 0 40px;
+    }
+    .image-class{
+        width: 300px;
+    }
+    .text-class{
+        font-size: medium;
+    }
+    .title-class, .section-title-class{
+        font-size: medium;
+    }
+    .nav-link-class{
+        font-size: small;
+    }
+}
+
+@media (max-width:400px){
     .container{
         padding: 0 20px;
     }
     .image-class{
         width: 200px;
+    }
+    .text-class{
+        font-size: small;
+    }
+    .title-class, .section-title-class{
+        font-size: small;
+    }
+    .nav-link-class{
+        font-size: x-small;
     }
 }
 
