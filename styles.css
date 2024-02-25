@@ -81,7 +81,7 @@
     .title-class, .section-title-class{
         font-size: medium;
     }
-    .nav-link-class{
+    .nav-link-class, .nav-link-class-active{
         font-size: small;
     }
 }
@@ -99,7 +99,7 @@
     .title-class, .section-title-class{
         font-size: small;
     }
-    .nav-link-class{
+    .nav-link-class, .nav-link-class-active{
         font-size: x-small;
     }
 }
