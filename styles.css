@@ -15,6 +15,12 @@
         color: #F4B942;
     }
 
+    .nav-link-class-active{
+        text-decoration: none;
+        color: #F4B942;
+        font-weight: bold;
+    }
+
 
     .title-class, .section-title-class{
         background-color: #69A2B0;
