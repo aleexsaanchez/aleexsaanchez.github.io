@@ -1,72 +1,189 @@
-    .body-class{
-        background-color: #484349;
-        
-    }
-    .header-class{
-        background-color: #243a58;
-        font-family: Helvetica;
-        text-align: center;
-    }
-    .nav-class{
-        background-color: rgb(20, 43, 62);
-    }
-    .nav-link-class{
-        text-decoration: none;
-        color: #F4B942;
-    }
+html{
+    background-color: #548687;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-class{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.header-text-class{
+    font-weight: bold;
+}
+
+#logo{
+    height: 50px;
+    margin-right: 10px;
+    left: 0;
+}
+
+.nav-class{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+.nav-class a{
+    display: block;
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-title-class{
+    background-color: #87D5D6;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.title-class{
+    display: flex;
+    justify-content: center;
+    color: #FFE787;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.regular-text-class{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #D9D9D9;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 15px;
+}
 
 
-    .title-class, .section-title-class{
-        background-color: #69A2B0;
-        padding-right: 10px;
-        padding-left: 5px;
-        width: fit-content;
-    }
+.circle-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+  
+.circle p {
+    font-size: medium;
+}
+
+.footer-class{
+    margin-top: 140px;
+    background-color: #D9D9D9;
+    margin-bottom: 0;
+    padding: 10px;
+    bottom: 0;
+}
+
+.footer-class a{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.where-are-you-from-class{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.charities-info{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.charities-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    flex: 1 0 300px; 
+    text-align: center;
+}
+
+.box img {
+    width: 75%;
+    height: auto;
+}
+
+.charities-info p{
+    font-size: large;
+    font-weight: bold;
+}
 
 
-    .title-class{
-        width: 100%;
-        text-align: center;
-    }
+.button-container{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
-    .text-class{
-        color: lightblue;
-        font-size: large;
-    }
+.volunteer-button{
+    width: 200px;
+    padding: 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    transition: margin-bottom 0.3s ease;
+}
 
-    .image-class{
-        border-style: solid;
-        border-color: #69A2B0;
-        border-width: 3px;
-        width: 500px;
-    }
 
-    .form-class, .button-class{
-        background-color: #F4B942;
-        padding-left: 5px;
-        padding-right: 10px;
-        padding-bottom: 5px;
-        width: fit-content;
-    }
-    .button-class{
-        margin-top: 5px;
-        border-radius: 10cm;
-    }
-    .footer-class{
-        background-color: #69A2B0;
-        padding-bottom:10px;
-    }
-    .text-class-footer{
-        color:white;
-        margin-bottom: 0px;
-    }
+.volunteer-button-form{
+    display: block;
+    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 35%;
+}
 
-@media (width <= 400px){
-    .container{
-        padding: 0 20px;
-    }
-    .image-class{
-        width: 200px;
-    }
+.charity-detailed-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    margin-left: 35%;
 }
 
