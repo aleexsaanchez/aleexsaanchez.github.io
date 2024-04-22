@@ -53,8 +53,8 @@ form.addEventListener("submit", (e) => {
         sendto: email.value,
         name: name.value,
         replyTo: 'sanchezsayes200278@students.reinhardt.edu',
-        title: 'it works',
-        body: 'Finally'
+        title: 'HelpHub Community',
+        body: 'Thank you for volunteering, you are now one step closer to helping the community'
     });
     
     const xhr = new XMLHttpRequest();
